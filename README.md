@@ -1,5 +1,4 @@
-# ucx_trans
-### Transfer file using UCX 
+# Transfer file using UCX 
 
 This project is a demo transfer file with the UCX.
 
