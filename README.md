@@ -1,6 +1,6 @@
 # Transfer file using UCX 
 
-This project is a demo transfer file with the UCX.
+This project is a demo which transfers given file with the UCX.
 
 First you should install the UCX:
 
