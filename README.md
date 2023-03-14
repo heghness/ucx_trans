@@ -1,4 +1,27 @@
 # ucx_trans
-first you should install ucx
-compile the code:
-gcc ucp_file_transfer.c  -lucp -lucs -o file_client
+### Transfer file using UCX 
+
+First you should install the UCX:
+
+[UCX](http://github.com/openucx/ucx)
+
+compile:
+
+```sh
+$ gcc ucp_file_transfer.c  -lucp -lucs -o file_server
+$ gcc ucp_file_transfer.c  -lucp -lucs -o file_client
+```
+
+Start server:
+
+```sh
+$ ./file_server
+```
+
+Start client:
+
+```sh
+$ ./file_client -f /home/data/MYDATA.fits -s 10.106.21.1
+```
+
+> NOTE the `-f` flag sets the path and name of the file that you will transfer by the client.  `-s` is the ip address of the server.
