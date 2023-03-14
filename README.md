@@ -22,7 +22,7 @@ $ ./file_server
 Start client:
 
 ```sh
-$ ./file_client -f /home/data/MYDATA.fits -s 10.106.21.1
+$ ./file_client -f /home/data/MYDATA.fits -s 10.10.10.10
 ```
 
 > NOTE the `-f` flag sets the path and name of the file that you will transfer by the client.  `-s` is the ip address of the server.
